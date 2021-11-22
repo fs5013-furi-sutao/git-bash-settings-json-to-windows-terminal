@@ -62,14 +62,16 @@ Guid
     "acrylicOpacity": 1.0,
     "closeOnExit": "graceful",
     "colorScheme": "Campbell",
-    "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" --login -i -l",  // <-- 自分の環境にインストールされている Git の bash.exe のパスを指定する
+    // 自分の環境にインストールされている Git の bash.exe のパスを指定する
+    "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" --login -i -l", 
     "cursorColor": "#FFFFFF",
     "cursorShape": "bar",
     "fontFace": "Consolas",
     "fontSize": 12,
     "guid": "{83d9a4e0-7540-4884-a3a9-d1bb03e9167d}",
     "historySize": 9001,
-    "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",  // <-- 自分の環境に格納されている git-for-windows.ico のパスを指定する
+    // 自分の環境に格納されている git-for-windows.ico のパスを指定する
+    "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
     "name": "Git Bash",
     "padding": "10, 0, 10, 0",
     "snapOnInput": true,
