@@ -17,8 +17,15 @@ Guid
 00000000-0000-0000-0000-000000000000
 ```
 
-## 
+## Windows Terminal の settings.json に追記
 
+Windows Terminal のタブに下向きの矢印 `v` をクリックして、メニューから「設定」を選択。
+
+左サイドバーから「JSON ファイルを開く」を選択。
+
+すると、settings.json が開くので以下の箇所に Git Bash の設定を追記する。
+
+`settings.json`
 ``` json
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
@@ -55,8 +62,11 @@ Guid
 }
 ```
 
+追記する Git Bash の設定例は以下の通り。
+
 ユーザーは以下のパスが含まれる場合は、ユーザーホームのパスを `%USERPROFILE%` で指定すること。
 
+`Git Bash の設定例: `
 ``` json
 {
     "acrylicOpacity": 1.0,
